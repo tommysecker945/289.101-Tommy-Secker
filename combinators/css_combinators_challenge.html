@@ -7,15 +7,24 @@
     <meta name="description" content="CSS combinators challenge." />
     <style>
         
-        div li{
-            
-            
-            
+        .oranges li {
+            color:violet;
+        }
+       
+        div > p {
+            color:red;
         }
         
-        /* https://developer.mozilla.org/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors#Combinators_and_selector_lists */
-        /* WRITE YOUR CSS HERE */
-
+        p + p {
+            color:blue;
+            }
+     
+        p ~ ul{
+            color:orange;
+        }
+        p ~ ul em {
+            color: pink;
+        }
     </style>
 </head>
     
@@ -33,7 +42,8 @@
             make this text blue using an adjacent selector
         </p>
         <ul>
-            <li>make this text orange using a general sibling selector; <em>and this phrase pink by combining 2 types of selectors</em></li>
+            <li>make this text orange using a general sibling selector; 
+                <em>and this phrase pink by combining 2 types of selectors</em> </li>
         </ul>
     </div>
 </body>
