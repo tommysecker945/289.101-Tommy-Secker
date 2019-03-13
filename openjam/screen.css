@@ -57,14 +57,17 @@ body {
 #what h1 + p 
 {  color: #347788;
     line-height: 1.5em;
+    margin: 30px;
 }
 #what h1 + p + p 
 {  color: #347788;
     line-height: 1.5em;
+    margin: 30px;
 }
 #what h1 + p + p + p
 {  color: #347788;
     line-height: 1.5em;
+    margin: 30px
 }
 #what h2 {
     color:#347788;
@@ -80,7 +83,7 @@ body {
 }
 #why {
     background-color: #b6ead3;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 #why h1 {
     color: #347788;
@@ -90,7 +93,9 @@ body {
 #why h1 + p {
     color: #347788;
     line-height: 1.5em;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    margin: 30px
+        
 }
 
 #where {
@@ -143,9 +148,17 @@ body {
 }
 #who {
     background-color: white;
+    padding-top: 20px
 }
 #who h1 {
-    color: #347788
+    color: #347788;
+    text-align: center;
+}
+#who h1 + p {
+    color: #417e8e;
+    padding-bottom: 20px;
+    margin: 30px;
+    line-height: 1.5em
 }
 
 
