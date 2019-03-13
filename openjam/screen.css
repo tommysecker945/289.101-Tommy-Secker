@@ -154,13 +154,23 @@ body {
     color: #347788;
     text-align: center;
 }
-#who h1 + p {
+#who h1 + p, #who h1 + p + p {
     color: #417e8e;
-    padding-bottom: 20px;
-    margin: 30px;
+    padding-bottom: 40px;
+    margin: 20px;
     line-height: 1.5em
 }
+#footer img{
+    padding-bottom: 2em;
+    width: 60px; 
+}
+#footer {
+    text-align: center;
 
+}
+
+    
+    
 
 
 
