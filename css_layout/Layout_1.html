@@ -1,0 +1,45 @@
+<!DOCTYPE>
+
+<html>
+    
+    <head>
+        <title>Layout 1</title>
+        <style>
+            div {
+                outline: 2px solid black;
+            }
+            #container {
+                width: 800px;
+                margin:auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            #blue {
+                height: 200px;
+                background-color: blue;
+                grid-column: 1/5
+            }
+            #red {
+                height: 600px;
+                background-color: red; 
+            }
+            #green {
+                height: 600px;
+                background-color: lime;
+                grid-column: 2/5;
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="blue"></div>
+            <div id="red"></div>
+            <div id="green"></div>
+        </div>
+    </body>
+    
+    
+
+</html>
