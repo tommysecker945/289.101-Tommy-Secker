@@ -13,42 +13,44 @@
                 margin: auto;
             }
             #blue {
-                background-color: blue;
-                height: 200px;
-            }
-            #green {
-                background-color: lime;
-                height: 150px;
                 display: grid;
-                grid-template-columns: ;
-                padding: 20px;
+                background-color: blue;
+                grid-template-columns: 80% 20%;
+                height:200px;  
+            }
+            #logo {
+                background-color: yellow;
+                grid-column: 2/3;
+                margin: 20px;
             }
             #red {
+                display:grid;
                 background-color: red;
+                grid-template-columns: 30% 70%;
                 height: 400px;
+            }
+            #red-right-col {
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-template-columns: 30% 70%;
                 padding: 20px;
-            }
-            .littleyellow {
-                background-color: yellow;
-                background
-            }
-                
             }
         </style>
     </head>
     
     <body>
         <div id="container">
-            <div id="blue"></div>
-            <div class="littleyellow"></div>
-            <div id="red">
-                <div class="littleyellow"></div>
-                <div class="bigyellow"></div>
+            <div id="blue">
+                <div id="logo"></div>
             </div>
+            <div id="red">
+                <div class="red-left-col"> </div>
+                <div class="red-right-col">
+                    <div id="small-yellow"></div>
+                    <div id="big-yellow"></div>
+                </div>
             <div id="green"></div>
                 
+            </div>
         </div>
     </body>
     
