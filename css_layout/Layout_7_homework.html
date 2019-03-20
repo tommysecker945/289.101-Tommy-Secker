@@ -10,24 +10,26 @@
             }
             #container {
                 width: 800px;
-                height: 2000;
                 margin:auto;
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
-            #blue {
+            #blue1 {
                 display: grid;
                 height: 50px;
                 grid-template-columns: 30% 70%;
                 background-color: blue;
                 grid-column: 1/5;
-                margin:px
-            
             }
             .yellow {
                 background-color: yellow;
                 margin:15px; 
                 height: 20px
+            }
+            #green1 {
+                height: 400px;
+                background-color: lime;
+                grid-column: 1/5
             }
            
         </style>
@@ -35,11 +37,12 @@
     
     <body>
         <div id="container">
-            <div id="blue">
+            <div id="blue1">
                 <div class="yellow"></div>
                 <div class="yellow"></div>
             </div>  
-            
+            <div id="green1"></div>
+                 
         </div>
     </body>
     
