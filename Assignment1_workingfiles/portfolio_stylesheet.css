@@ -4,9 +4,9 @@ url(https://fonts.googleapis.com/css?family=Fjalla+One:400,700');
 #nav {
     background-color: darkgray;
     color: white;
-    font-weight: bold;
+    font-size: 20px;
     text-align:center;
     word-spacing: 4em;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 
+    font-family: 'Fjalla One', sans-serif;
