@@ -1,12 +1,24 @@
 @import
-url(https://fonts.googleapis.com/css?family=Fjalla+One:400,700');
+url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
 #nav {
     background-color: darkgray;
     color: white;
-    font-size: 20px;
-    text-align:center;
-    word-spacing: 4em;
+    font-size: 18px;
+    text-align:right;
+    word-spacing: 3em;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 40px;
     font-family: 'Fjalla One', sans-serif;
+}
+#nav a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px
+    
+}
+body {
+    background-color: lightgrey;
+            }   
