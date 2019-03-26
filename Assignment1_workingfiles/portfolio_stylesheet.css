@@ -16,22 +16,28 @@ url(https://fonts.googleapis.com/css?family=Fjalla+One);
     color: white;
     text-decoration: none;
     padding-bottom: 10px;
-    padding-top: 10px
-    
+    padding-top: 10px;
+    vertical-align: center;
+  
+}
+#brand-image {
+    width: 300px;
 }
 body {
     background-color: lightgrey;
 }
 #coverimage {
-    
-    padding-top: 0;
-    max-width: 1024px;
-    align-content: center;    
+    max-width: 1080px;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
 }
 #introtext p {
+    padding-top: 15px;
     text-align: center;
-    line-height: 5em;
-    font-family: 'Fjalla One', sans-serif;  
+    line-height: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 30px
 }
     
