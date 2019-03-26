@@ -21,4 +21,17 @@ url(https://fonts.googleapis.com/css?family=Fjalla+One);
 }
 body {
     background-color: lightgrey;
-            }   
+}
+#coverimage {
+    
+    padding-top: 0;
+    max-width: 1024px;
+    align-content: center;    
+}
+#introtext p {
+    text-align: center;
+    line-height: 5em;
+    font-family: 'Fjalla One', sans-serif;  
+    font-size: 30px
+}
+    
