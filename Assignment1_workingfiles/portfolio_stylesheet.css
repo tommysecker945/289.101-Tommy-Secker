@@ -58,15 +58,19 @@ form {
   margin: 0 auto;
     background-color: lightslategrey;
   width: 400px;
-  padding: 3em;
+  padding: 2em;
   border: 2px solid white;
-  border-radius: 1em;
+  border-radius: 3em;
     font-family: 'Raleway', sans-serif;
+    
+}
+h1 , p {
+    text-align: center;
     
 }
 
 form div + div {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 label {
@@ -83,15 +87,11 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-  /* To give a little highlight on active elements */
   border-color: black;
 }
 
 textarea {
-  /* To properly align multiline text fields with their labels */
   vertical-align: top;
-
-  /* To give enough room to type some text */
   height: 5em;
 }
 
