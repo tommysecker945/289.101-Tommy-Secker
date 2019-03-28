@@ -6,8 +6,8 @@ body {
     margin: 0;
 }
 #nav {
-    background-color: darkgray;
-    color: red;
+    background-color: grey;
+    color:white;
     font-size: 18px;
     text-align:right;
     word-spacing: 3em;
@@ -38,13 +38,15 @@ body {
     
     text-align: center;
     background-color: white;
+   
 }
 #coverimage img {
     max-width: 1080px;
     margin: 20px;
     padding: 20px;
     padding-top: 15px;
-    width: 90%
+    width: 90%;
+     border: 1px solid black
 }
 #introtext p {
     padding-top: 15px;
@@ -101,4 +103,26 @@ textarea {
 
 button {
   margin-left: .5em;
+}
+#footer {
+    height: 40px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;      
+}
+#about-heading {
+    margin-top: 20px;
+    height: 30px;
+    background-color: #aaa7a2;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+}
+#about-heading + p, #about-heading + p + p {
+    text-align: left;
 }
