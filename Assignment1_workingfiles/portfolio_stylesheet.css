@@ -7,7 +7,7 @@ body {
 }
 #nav {
     background-color: darkgray;
-    color: white;
+    color: red;
     font-size: 18px;
     text-align:right;
     word-spacing: 3em;
@@ -21,7 +21,7 @@ body {
 #nav a {
     color: white;
     text-decoration: none;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-top: 10px;
     vertical-align: center;
     margin:auto;
@@ -55,11 +55,11 @@ body {
 }
    
 form {
-  margin: 0 auto;
+  margin: auto;
     background-color: lightslategrey;
   width: 400px;
   padding: 2em;
-  border: 2px solid white;
+  border: 2.3px solid white;
   border-radius: 3em;
     font-family: 'Raleway', sans-serif;
     
