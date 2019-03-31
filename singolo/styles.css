@@ -47,19 +47,82 @@ body {
     max-width: 780px;
     width: 90%
 }
-.contact {
-	background-color: #f16c65;
-	overflow: hidden;
-    height: 200px;
-	}
+#services_container {
+    background-color: #F2F2F2;
+    color: #666D89;
+    font-size: 1.1em;
+    line-height: 2em;
+    margin: auto;
+    max-width: 950px;
+}
+
+#services_container h1 {
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+#services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+#quote {
+    background-color: #F06C64;
+    border-bottom: 6px solid #EA676B;
+    color: #F0D8D9;
+    font-size: 1.1em;
+    line-height: 2em;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+}
+
+#quote .centered {
+    margin: auto;
+    max-width: 950px;
+}
+
+#quote form {
+    display: grid;
+    grid-template-columns: 68% auto;
+    padding-top: 1em;
+}
+
+#quote form h2 {
+    margin-top: 0
+}
+
+#quote form p {
+    font-size: 0.7em;
+    line-height: 1.8em;
+    margin-bottom: 2.5em;
+}
+
+#quote input,
+#quote textarea {
+    background-color: #D6564F;
+    border: none;
+    border-radius: 6px;
+    color: #EC7E7E;
+    font-size: 0.7em;
+    margin: 0.7em 0;
+    padding: 1em;
+    width: 90%;
+    
+}
+
+
+
+
 #footer {
 	background: #2d303a;
 	overflow: hidden;
 	}
 
 #footer .inner {
-	padding-top: 22px;
-	padding-bottom: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	}
 	
 #footer p {
@@ -67,7 +130,7 @@ body {
 	}	
 	
 #footer p a {
-	line-height: 32px;
+	line-height: 12px;
 	color: #666d89;
 	}	
 	
