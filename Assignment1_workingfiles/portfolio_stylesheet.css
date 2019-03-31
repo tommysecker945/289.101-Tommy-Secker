@@ -151,3 +151,14 @@ button {
     color: white;
     font-size: 25px
 }
+#portfolio {
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+}
+
+#contact {
+	background-color: red;
+	overflow: hidden;
+	border-bottom: 6px solid #ea676b;
+    height: 200px;
+	}

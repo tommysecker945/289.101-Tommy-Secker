@@ -6,9 +6,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-* {
-    outline: 1px dotted lime;
-}
 #header {
     background-color: #2d303a;
     height: 90px;
@@ -50,3 +47,58 @@ body {
     max-width: 780px;
     width: 90%
 }
+.contact {
+	background-color: #f16c65;
+	overflow: hidden;
+    height: 200px;
+	}
+#footer {
+	background: #2d303a;
+	overflow: hidden;
+	}
+
+#footer .inner {
+	padding-top: 22px;
+	padding-bottom: 22px;
+	}
+	
+#footer p {
+	color: #666d89;
+	}	
+	
+#footer p a {
+	line-height: 32px;
+	color: #666d89;
+	}	
+	
+#footer p a:hover {
+	color: #f06c64;
+	-o-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	}	
+	
+#footer ul {
+	float: right;
+	}	
+	
+#footer ul li span {
+    font-family: 'Lato', sans-serif;
+	float: left;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 10px 0 0;
+	background: transparent;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+	border-radius: 50%;
+	border: 1px solid #6a718c;
+	color: #6a718c;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	}
