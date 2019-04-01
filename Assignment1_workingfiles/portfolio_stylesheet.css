@@ -1,20 +1,20 @@
 @import
 url(https://fonts.googleapis.com/css?family=Fjalla+One);
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 body {
     margin: 0;
 }
 #nav {
     background-color: grey;
     color:white;
-    font-size: 18px;
+    font-size: 23px;
     text-align:right;
     word-spacing: 2em;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 40px;
-    font-family: 'Fjalla One', sans-serif;
+ font-family: 'Abril Fatface', cursive;
     border-top:3px solid black;
     border-bottom: 3px solid black;
 }
@@ -46,7 +46,6 @@ body {
     padding: 20px;
     padding-top: 15px;
     width: 90%;
-     border: 1px solid black
 }
 #introtext p {
     padding-top: 15px;
@@ -104,6 +103,16 @@ textarea {
 button {
   margin-left: .5em;
 }
+
+#socialmedia {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin:30px;
+    padding: 10px;
+    background-color: grey; 
+    
+}
 #footer {
     height: 20px;
     background-color: grey;
@@ -151,14 +160,11 @@ button {
     color: white;
     font-size: 25px
 }
-#portfolio {
-    display: grid;
-    grid-template-columns:33% 33% 33%;
+#socialmedialinks img {
+    max-height:60px;  
+    padding-bottom: 1em;
+    width: 60px; 
 }
-
-#contact {
-	background-color: red;
-	overflow: hidden;
-	border-bottom: 6px solid #ea676b;
-    height: 200px;
-	}
+#socialmedialinks {
+    text-align: center;
+}
