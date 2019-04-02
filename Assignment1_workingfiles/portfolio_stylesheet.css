@@ -9,27 +9,34 @@ body {
     background-color: grey;
     color:white;
     font-size: 23px;
-    text-align:right;
+    text-align:center;
     word-spacing: 2em;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 40px;
- font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface', cursive;
     border-top:3px solid black;
     border-bottom: 3px solid black;
+    letter-spacing: .4em
 }
 #nav a {
     color: white;
     text-decoration: none;
     padding-bottom: 20px;
     padding-top: 10px;
-    vertical-align: center;
+    
     margin:auto;
     width: 900px;
   
 }
+#navbar-brand { 
+    
+    
+}
 #brand-image {
     width: 300px;
+    max-height: 160px;
+   
 }
 body {
     background-color: lightgrey;
