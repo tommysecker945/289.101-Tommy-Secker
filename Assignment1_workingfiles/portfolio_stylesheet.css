@@ -160,11 +160,18 @@ button {
     color: white;
     font-size: 25px
 }
-#socialmedialinks img {
-    max-height:60px;  
-    padding-bottom: 1em;
-    width: 60px; 
+#socialmedia img {
+    font-size: 40px;  
+    width: 60px;
+    border: 2px black solid;
+    border-radius: 15px;
+    
+   
 }
 #socialmedialinks {
     text-align: center;
+    
+}
+
+    
 }
