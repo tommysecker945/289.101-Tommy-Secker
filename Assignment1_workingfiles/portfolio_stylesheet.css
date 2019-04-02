@@ -125,6 +125,18 @@ button {
     border-bottom: 2px solid black;
     border-top: 2px solid black
 }
+#about_image {
+     text-align: center;
+    background-color: white;
+}
+#about_image img {
+    max-height: 350px;
+    margin: 15px;
+    border: 3px solid black;
+    border-radius: 15px
+   
+    
+}
 #about-heading {
     margin-top: 20px;
     height: 30px;
@@ -165,13 +177,9 @@ button {
     width: 60px;
     border: 2px black solid;
     border-radius: 15px;
-    
-   
 }
 #socialmedialinks {
     text-align: center;
     
-}
-
     
-}
+
