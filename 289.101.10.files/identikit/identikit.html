@@ -48,6 +48,8 @@
 </head>
 
 <body>
+    //research swapping an image source in JavaScript online
+    //everything is co-ordinated from the left, always base things on left mrgin
 
     <div id="controls">
         <a id="eyes_up_btn">move eyes up</a>
@@ -83,6 +85,13 @@
         document.getElementById('eye_right').style.left = eye_right_x + 'px';
         document.getElementById('eye_right').style.top = eye_right_y + 'px';
 
+        // move eyes up event listener
+        document.getElementById('eyes_up_btn').addEventListener('click', function() {
+            eye_left_y -= 10;
+            document.getElementById('eye_left').style.top = eye_left_y + 'px';
+            eye_right_y -= 10;
+            document.getElementById('eye_right').style.top = eye_right_y + 'px';
+        
         // move eyes up event listener
         document.getElementById('eyes_up_btn').addEventListener('click', function() {
             eye_left_y -= 10;
