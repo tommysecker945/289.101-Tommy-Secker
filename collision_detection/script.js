@@ -23,21 +23,19 @@ function logCoordinates() {
     console.log('x=' + puck_x + 'y=' + puck_y); 
 }
 
-function checkCollision() {
-    // has the puck passed the edges of the hole
-    if (puck_x > 250 && puck_x < 350 && puck_y > 150 && puck_y < 250) {
-        
-    console.log('AAAAAARGH');
-        
-function changeBackground(color) {
-    
-   if (puck_x > 250 && puck_x < 350 && puck_y > 150 && puck_y < 250) 
-   body.style.background = "red";
-}
-    
-    }
-}
 
+function checkCollision() {
+ 
+    if (puck_x > 250 && puck_x < 350 && puck_y > 150 && puck_y < 250) {
+        console.log('collision!');
+        document.getElementById('gap').style.backgroundColor = 'red';
+    }
+    else {
+        document.getElementById('gap').style.backgroundColor = 'white';
+    
+}
+    
+    
 document.getElementById('left').addEventListener('click', function(){
     puck_x -= speed;
     puck.style.left = puck_x + 'px';
