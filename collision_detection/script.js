@@ -10,54 +10,71 @@ Next, add the following features:
 
 */
 
+var speed = 50;
 var puck = document.getElementById('puck');
 var puck_x = 210;
 var puck_y = 210;
-var speed = 50;
-
-
-puck.style.left = puck_x + 'px';
 puck.style.top = puck_y + 'px';
+puck.style.left = puck_x + 'px';
 
 function logCoordinates() {
-    console.log('x=' + puck_x + 'y=' + puck_y); 
+    console.log('x=' + puck_x + ' y=' + puck_y);
 }
 
-
 function checkCollision() {
- 
+    // collision detection code goes here
     if (puck_x > 250 && puck_x < 350 && puck_y > 150 && puck_y < 250) {
         console.log('collision!');
         document.getElementById('gap').style.backgroundColor = 'red';
     }
     else {
         document.getElementById('gap').style.backgroundColor = 'white';
-    
+    }
 }
-    
-    
-document.getElementById('left').addEventListener('click', function(){
+
+function checkTeleport() {  
+    if (puck_x >= 600) {
+        puck_x = 0;
+    }
+    if (puck_x < 0) {
+        puck_x = 590;
+    }
+    if (puck_y < 0) {
+        puck_y = 390;
+    }
+    if (puck_y >= 400) {
+        puck_y = 0;
+    }
+}
+ 
+document.getElementById('left').addEventListener('click', function() {
     puck_x -= speed;
+    checkTeleport();
     puck.style.left = puck_x + 'px';
     logCoordinates();
     checkCollision();
 });
-document.getElementById('right').addEventListener('click', function(){
+ 
+document.getElementById('right').addEventListener('click', function() {
     puck_x += speed;
+    checkTeleport();
     puck.style.left = puck_x + 'px';
     logCoordinates();
-     checkCollision();
+    checkCollision();
 });
 
-document.getElementById('up').addEventListener('click', function(){
+document.getElementById('up').addEventListener('click', function() {
     puck_y -= speed;
+    checkTeleport();
     puck.style.top = puck_y + 'px';
     logCoordinates();
-     checkCollision();
+    checkCollision();
 });
-document.getElementById('down').addEventListener('click', function(){
+ 
+document.getElementById('down').addEventListener('click', function() {
     puck_y += speed;
+    checkTeleport();
     puck.style.top = puck_y + 'px';
     logCoordinates();
-     checkCollision();
+    checkCollision();
 });
